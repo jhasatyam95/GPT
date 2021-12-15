@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aleo:wght@700&family=Lato:wght@400;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Roboto', sans-serif;
+}
+/* body{
+    background-image: url('../Img/bodyback.png');
+    background-position: center;
+    background: linear-gradient(90deg,#f7f4f4,#e0e0f1);
+    
+}
+.navbar {
+    background: linear-gradient(90deg, #f0eaea,#e0e0f1);
+    box-shadow: 0.5px 0.5px #1b2b7c26;
+} */
+.onfocus{
+    color: #FB5472 !important;
+    font-family: Aleo;
+}
+.nav-link:hover{
+    color: #FB5472 !important;
+}
+.headingLeft{
+    font-family: Aleo,sans-serif;
+    color: #1B2B7C;
+    font-weight: 900;
+    font-size: 4rem;
+}
+.headingRight{
+    font-family: Aleo,sans-serif;
+    color:#FB5472;
+    font-size: 4rem;
+    font-weight: 900;
+}
+.para{
+    font-size: 1.1rem;
+    font-family: Lato,sans-serif;
+    line-height: 2rem;
+    font-weight: 400;
+    color: #646A89;
+    text-align: justify;
+    text-justify: inter-word;
+}
+.rounding{
+    border-radius: 20%;
+}
+.Benefitsback{
+    box-shadow: 0px 1rem 2.6rem #2449a826;
+   background-color: #fff;
+    border-radius: 0.5rem;
+}
+.BenefitsIcon{
+    color: #1B2B7C;
+}
+.BenefitsH2{
+    font-family: Aleo,sans-serif;
+    font-size: 1.4rem;
+    color: #1B2B7C;
+    font-weight: 900;   
+}
+.social{
+    background-color: #35393d;
+    
+}
+.socialIcons{
+    /* font-size: 1.6rem; */
+    text-align: center;
+    height: 4rem;
+	width: 4rem;
+    padding: 1rem 0.85rem 0.85rem 0.85rem;
+    margin: 0rem 0.6rem;
+    display: flex;
+    font-size: 2rem;
+    border:1px solid #c9c9dd;;
+    border-radius: 50%;
+    color: #c9c9dd;;
+    
+}
+.fa-facebook-f:hover{
+    border:1px solid blue;
+    background-color: blue;
+    color: white;
+}
+.fa-instagram:hover{
+    border:1px solid green;
+    background-color: green;
+    color: white;
+}
+.fa-youtube:hover{
+    border:1px solid red;
+    background-color: red;
+    color: white;
+}
+footer{
+    color: white;
+}
+footer a{
+    color: white !important;
+}
+.footer a:hover{
+    color: yellow !important;
+}
+.fa-map-marked-alt{
+    color: #c9c9dd;
+}
+.footer h1,.footer h2,.footer h5{
+    font-weight: 900;
+    font-family: Aleo;
+    color: #c9c9dd;
+}
+
+
+/* ========================================= media query ================================================ */
+
+@media(max-width:992px){
+    .footer h6{
+        font-size: 0.9rem;
+    }
+    .Benefits .py-4 {
+        padding-top: 3rem!important;
+        padding-bottom: 3rem!important;
+    }
+    
+}
+@media(max-width:768px){
+    .Benefitsback{
+        width: 80%;
+        margin: auto;
+    }
+}
+@media(max-width:468px){
+    .logoWname{
+        max-width: 80% !important;
+    }
+    .headingLeft,.headingRight{
+        font-size: 3rem;
+    }
+    .Benefitsback{
+        width: 100%;
+        margin: auto;
+    }
+    .navbar-toggler-icon{
+        width: 1em !important;
+        height: 1em !important;
+        background-size: 145% !important;
+    }
+}
+@media(max-width:428px){
+    .headingLeft,.headingRight{
+        font-size: 2rem;
+    }
+    .para{
+        font-size: 0.9rem;
+        line-height: 1.6rem;
+    }
+}
